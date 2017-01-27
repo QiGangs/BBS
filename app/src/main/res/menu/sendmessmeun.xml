@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".view.Login">
+
+    <item
+        android:id="@+id/alertpic"
+        android:orderInCategory="80"
+        android:title="插入图片"
+        android:icon="@mipmap/lyb"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/setbold"
+        android:orderInCategory="80"
+        android:title="加粗"
+        android:icon="@mipmap/gd"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/setitalic"
+        android:orderInCategory="80"
+        android:title="倾斜"
+        android:icon="@mipmap/cggs"
+        app:showAsAction="always"/>
+</menu>

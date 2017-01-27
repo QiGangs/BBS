@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_perinfo"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yctu.bbs.activity.PerInfoActivity">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_margin="16dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/headpic"
+            android:layout_gravity="center"
+            android:layout_marginLeft="4dp"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:src="@mipmap/ic_launcher"
+            app:civ_border_width="1dp"
+            app:civ_border_color="#bbbbbb" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:text="账号"
+        android:layout_marginBottom="16dp"
+        android:textSize="28sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#456789"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/account" />
+
+    <LinearLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:weightSum="10"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="昵称:"
+            android:layout_marginTop="6dp"
+            android:textSize="18sp"
+            android:textColor="#333333"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2" />
+
+        <EditText
+            android:text="昵称"
+            android:layout_width="200dp"
+            android:layout_weight="6"
+            android:layout_height="wrap_content"
+            android:id="@+id/username" />
+
+        <TextView
+            android:text="修改"
+            android:background="#03a9f4"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/reset_u"
+            android:layout_weight="2"
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:weightSum="10"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="描述:"
+            android:layout_marginTop="6dp"
+            android:textSize="18sp"
+            android:textColor="#333333"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            android:layout_weight="2" />
+
+        <EditText
+            android:text="一句话描述"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/aword"
+            android:layout_weight="6"
+            />
+
+        <TextView
+            android:text="修改"
+            android:gravity="center"
+            android:background="#03a9f4"
+            android:layout_marginTop="5dp"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/reset_a"
+            android:layout_weight="2"
+             />
+    </LinearLayout>
+
+</LinearLayout>
+

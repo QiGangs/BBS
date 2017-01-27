@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_fuser"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:paddingTop="8dp"
+        android:paddingLeft="8dp"
+        android:layout_height="match_parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/fuser_headpic"
+            android:layout_gravity="center"
+            android:layout_marginLeft="4dp"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:src="@mipmap/ic_launcher"
+            app:civ_border_width="1dp"
+            app:civ_border_color="#bbbbbb" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginLeft="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:textColor="#445566"
+                android:textSize="24sp"
+                android:text="username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/fuser_username" />
+
+            <TextView
+                android:text="account"
+                android:textColor="#778899"
+                android:textSize="24sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/fuser_account" />
+
+            <TextView
+                android:text="aword"
+                android:textColor="#336699"
+                android:textSize="24sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/fuser_aword" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:background="#bbbbbb"
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="32dp"
+    android:paddingRight="32dp"
+    android:weightSum="1">
+
+
+    <ImageView
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/bbslogo"
+        android:id="@+id/imageView"
+        android:layout_weight="0.14" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:hint="账号"
+        android:ems="10"
+        android:id="@+id/account"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:ems="10"
+        android:hint="密码"
+        android:id="@+id/password" />
+
+    <Button
+        android:layout_marginTop="32dp"
+        android:text="登       录"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="#03a9f4"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:onClick="onClickLogin"
+        android:id="@+id/loginbt"
+        />
+    <Button
+        android:layout_marginTop="32dp"
+        android:text="注       册"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="#03a9f4"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:onClick="onClickRegist"
+        android:id="@+id/registbt"
+        />
+
+</LinearLayout>

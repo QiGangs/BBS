@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".view.Login">
+
+    <item
+        android:id="@+id/report"
+        android:orderInCategory="80"
+        android:title="举报"
+        android:icon="@mipmap/ic_launcher"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/collect"
+        android:orderInCategory="80"
+        android:title="收藏"
+        android:icon="@mipmap/ic_launcher"
+        app:showAsAction="never"/><!--  app:actionViewClass="android.support.v7.widget.SearchView"-->
+</menu>
